@@ -1,6 +1,6 @@
 const http = require("http");
 const { connectDB } = require("./db");
-const { insertEmployee, fetchEmployees, deleteEmployee } = require("./employee");
+const { insertEmployee, fetchEmployees, deleteEmployee } = require("./Employee");
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
